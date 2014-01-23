@@ -1,8 +1,24 @@
 {
   "name": "gToast",
   "version": "0.0.1",
+  "homepage": "https://github.com/nohros/gToast",
+  "authors": [
+    "Neylor Ohmaly <nohros.ceo@gmail.com>"
+  ],
+  "keywords": [
+    "angularjs",
+    "gToast"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
   "devDependencies": {
     "angular": "~1.2.9",
-  },
-  "dependencies": {}
+  }
 }

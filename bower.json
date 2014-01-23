@@ -1,0 +1,8 @@
+{
+  "name": "gToast",
+  "version": "0.0.1",
+  "devDependencies": {
+    "angular": "~1.2.9",
+  },
+  "dependencies": {}
+}

@@ -3,13 +3,13 @@
 Gmail toaster for angularjs(http://angularjs.org/) applications.
 
 gToast is small (~1Kb), has minimalistic API, highly customizable through themes
-and has only angularjs as dependency
+and has only angularjs as dependency.
 
 ### [Example](http://nohros.com/gToast)
 
 ## Install
 
-You can download all necessary gToast files manually ir install it with bower:
+You can download all necessary gToast files manually or install it with bower:
 
 ```bash
 bower install gToast
@@ -57,7 +57,7 @@ passed to ``$scope.parent``.
 #### ``data {String}``
 
 Any data that you want to be stored in controller's ``$parent`` scope, it could be stringified JSON as well. The
-data will be associated with the gToastData property of the toast scope.
+data will be associated with the ``gToastData`` property of the toast's scope.
 
 #### ``theme {String}``
 
@@ -72,14 +72,14 @@ gToast.open('Toast notification', {
 });
 ```
 
-This theme will be used as default if none was specified. This theme makes the toast looks like the toast used by the
+This theme will be used as default if none was specified. This theme makes the toast looks like the one used in
 GMail.
 
 Check [themes] (https://github.com/nohros/gToast#themes) block to learn more.
 
-#### ``timeout``
+#### ``timeout {Integer}``
 
-This option specifies the time(in milliseconds) for how long the toast will be displayed. This example makes the
+This option specifies the time (in milliseconds) for how long the toast will be displayed. This example makes the
 toast visible for 3.5 seconds.
 
 ```javascript
@@ -112,7 +112,7 @@ A simple button should look like this:
 
 ## Themes
 
-Currently gToast contains two themes that show how easily you can create your own. Check ``example`` folder for
+Currently ``gToast`` contains two themes that show how easily you can create your own. Check ``example`` folder for
 demonstration purposes.
 
 ## License

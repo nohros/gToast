@@ -98,7 +98,7 @@ module.exports = function(grunt) {
         src: [
           '<%= app_files.js %>'
         ],
-        dest: '<%= compile_dir %>/<%= pkg.name %>-<%= pkg.version %>.js'
+        dest: '<%= compile_dir %>/<%= pkg.name %>-<%= pkg.version %>.min.js'
       }
     },
 

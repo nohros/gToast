@@ -8,6 +8,6 @@ module.exports = {
   app_files: {
     js: [ 'src/**/*.js', '!src/**/*.spec.js', '!src/assets/**/*.js' ],
     jsunit: [ 'src/**/*.spec.js' ],
-    sass: 'sass/gToast.scss'
+    sass: 'sass/gtoast.scss'
   }
 };

@@ -2,8 +2,12 @@
   "name": "gToast",
   "version": "0.0.1",
   "homepage": "https://github.com/nohros/gToast",
+  "description": "Gmail like toaster for angularjs",
   "authors": [
     "Neylor Ohmaly <nohros.ceo@gmail.com>"
+  ],
+  main: [
+    "src/gToast.js"
   ],
   "keywords": [
     "angularjs",
@@ -18,7 +22,7 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
+  "dependencies": {
     "angular": "~1.2.9",
   }
 }

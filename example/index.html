@@ -3,17 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>gToast Sample</title>
+
+  <link rel="stylesheet" href="../build/gToast.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
   <script src="../build/gToast.js"></script>
-  <link rel="stylesheet" href="../build/gToast.css">
+  <script src="index.js"></script>
 </head>
 <body ng-controller="MainCtrl">
-<div>SOME CONTENT</div>
-<div class="gtoast">
-  <div class="gtoast-dialog">
-    A conversa foi colocada na lixeira.
-  </div>
-</div>
-<div>SOME OTHER CONTENT</div>
+<input type="button" g-toast g-toast-text="Toast is ready!" g-toast-timeout="5">
 </body>
 </html>

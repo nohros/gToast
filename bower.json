@@ -6,7 +6,7 @@
   "authors": [
     "Neylor Ohmaly <nohros.ceo@gmail.com>"
   ],
-  main: [
+  "main": [
     "src/gToast.js"
   ],
   "keywords": [

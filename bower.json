@@ -8,7 +8,7 @@
   ],
   "main": [
     "src/gToast.js",
-    "sass/_gtoast.scss",
+    "sass/gtoast.scss",
     "sass/_toast.scss",
     "sass/_theme.scss"
   ],

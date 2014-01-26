@@ -7,7 +7,10 @@
     "Neylor Ohmaly <nohros.ceo@gmail.com>"
   ],
   "main": [
-    "src/gToast.js"
+    "src/gToast.js",
+    "sass/_gtoast.scss",
+    "sass/_toast.scss",
+    "sass/_theme.scss"
   ],
   "keywords": [
     "angularjs",
@@ -23,6 +26,6 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.9",
+    "angular": "~1.2.9"
   }
 }

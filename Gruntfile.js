@@ -98,7 +98,7 @@ module.exports = function(grunt) {
         src: [
           '<%= app_files.js %>'
         ],
-        dest: '<%= compile_dir %>/<%= pkg.name %>-<%= pkg.version %>.min.js'
+        dest: '<%= compile_dir %>/<%= pkg.name %>.min.js'
       }
     },
 
@@ -178,7 +178,7 @@ module.exports = function(grunt) {
 
       compile: {
         src: [ '<%= app_files.sass %>' ],
-        dest: '<%= compile_dir %>/<%= pkg.name %>-<%= pkg.version %>.css',
+        dest: '<%= compile_dir %>/<%= pkg.name %>.css',
         files: {
           '<%= sass.compile.dest %>' : '<%= sass.compile.src %>'
         },

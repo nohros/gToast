@@ -12,26 +12,6 @@
       timeout: 3500
     };
 
-    /**
-     * Extends the destination objec 'dst' by copying all of the properties from the 'src' object(s)
-     * to 'dst'. Multiple src objects could be specified. 'undefined' values are not copied.
-     *
-     * @param {Object} dst The destination object.
-     * @param {Object} src The spurce object.
-     * @returns {Object} Reference to 'dst'.
-     */
-    var extend = function extend(dst, src) {
-      forEach(arguments, function(obj) {
-        if (obj !== src) {
-          forEach(obj, function(value, key) {
-            if (isDef(value)) {
-              dst[key] = value;
-            }
-          });
-        }
-      });
-    };
-
     this.$get = ['$document', '$compile', '$rootScope', '$timeout', '$animate',
       function ($document, $compile, $rootScope, $timeout, $animate) {
         var $body = $document.find('body');
@@ -46,7 +26,7 @@
             var self = this;
             var options = angular.copy(defaults);
             opts = opts || {};
-            extend(options, opts);
+            angular.extend(options, opts);
 
             var scope = angular.isObject(options.scope) ? options.scope : $rootScope.$new();
 

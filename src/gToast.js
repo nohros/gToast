@@ -39,9 +39,9 @@
             if (options.controller && angular.isString(options.controller)) {
               $toast.attr('ng-controller', options.controller);
             }
-            if (options.theme) {
-              $toast.addClass(options.theme);
-            }
+
+            $toast.addClass(options.theme || defaults.theme);
+
             if (options.data && angular.isString(options.data)) {
               scope.gToastData = options.data.replace(/^\s*/, '')[0] === '{' ? angular.fromJson(options.data) : options.data;
             }

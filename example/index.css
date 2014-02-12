@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: solid 1px #0096d6;
+  background: linear-gradient(#0096d6, #0081b8);
+  color: #fff;
+  margin-left: 2rem;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background: #0081b8;
+  border: solid 1px #0081b8;
+}
+
+a {
+  cursor:pointer;
+  color:#0096d6;
+  text-decoration: underline;
+}
+
+h1 {
+  padding: 0 0 0.5rem;
+}
+
+section {
+  padding: 0 3rem;
+}
+
+section > h1 {
+  border-bottom:solid 1px #d2d2d2;
+}

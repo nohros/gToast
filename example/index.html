@@ -4,13 +4,23 @@
   <meta charset="utf-8">
   <title>gToast Sample</title>
 
-  <link rel="stylesheet" href="../build/gToast.css">
+  <link rel="stylesheet" href="gToast.css">
+  <link rel="stylesheet" href="index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
-  <script src="../build/gToast.js"></script>
+  <script src="gToast.js"></script>
   <script src="index.js"></script>
 </head>
 <body ng-controller="MainCtrl">
-<input type="button" g-toast g-toast-text="Toast is ready!" g-toast-timeout="5000">
+<section>
+  <h1>gToast</h1>
+  <a g-toast g-toast-text="Toast is ready!" g-toast-timeout="5000">
+    Make toast
+  </a>
+
+  <button ng-click="showToast('Cooking toast!')">
+    Make toast
+  </button>
+</section>
 </body>
 </html>

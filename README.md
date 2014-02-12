@@ -17,9 +17,6 @@ npm install
 grunt compile
 ```
 
-# Contribution
-We use the C4 philosofy. Please read it: http://rfc.zeromq.org/spec:16
-
 ## Usage
 
 You need only to include ``gToast.js`` and ``gToast.css`` (as minimal setup) to you project and then you can start
@@ -117,6 +114,9 @@ A simple button should look like this:
 
 Currently ``gToast`` contains two themes that show how easily you can create your own. Check ``example`` folder for
 demonstration purposes.
+
+## Contribution
+We use the C4 philosofy. Please read it: http://rfc.zeromq.org/spec:16
 
 ## License
 

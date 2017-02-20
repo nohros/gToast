@@ -83,7 +83,7 @@ This option specifies the time (in milliseconds) for how long the toast will be 
 toast visible for 3.5 seconds.
 
 ```javascript
-gToast.open('Toast notification', function() {
+gToast.open('Toast notification', {
   timeout: 3500
 });
 ```

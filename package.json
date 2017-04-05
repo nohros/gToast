@@ -3,10 +3,12 @@
   "name": "gToast",
   "version": "0.1.2",
   "homepage": "http://nohros.com/gToast",
-  "licenses": {
-    "type": "MIT",
-    "url": "https://raw.github.com/nohros/gToast/master/LICENSE"
-  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/nohros/gToast/master/LICENSE"
+    }
+  ],
   "bugs": "https://github.com/nohros/gToast/issues",
   "repository": {
     "type": "git",
